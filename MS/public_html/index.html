@@ -12,6 +12,7 @@
         <link href="css/scrolling-nav.css" rel="stylesheet">
         <!-- Animações > jQuery -->
         <script src="js/jquery.js"></script>
+        <link href="css/estilo.css" type="text/css" rel="stylesheet"/>
 
         <!-- Página "Scrolling" -->
         <script src="js/jquery.easing.min.js"></script>
@@ -19,11 +20,11 @@
     </head>
     <body>
 
-        <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: #003300">
+        <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: green; box-shadow: 0px 5px 50px 2px dimgrey;">
             <div class="container">
 
                 <div class="navbar-header page-scroll">
-                    <a class="navbar-brand page-scroll glyphicon glyphicon-home" href="#inicio" style="color: #F8F8FF"> Início</a>
+                    <a class="navbar-brand page-scroll glyphicon glyphicon-home" href="#inicio" style="color: #F8F8FF; "> Início</a>
                 </div>
                 <ul class="nav navbar-nav" style="font-size: 18px" style="font-family:">
 
@@ -35,7 +36,7 @@
                     </li>
                     <li>
                         <!--↓↓↓↓↓↓↓↓↓↓↓ Colocar o link para download -->
-                        <a class="page-scroll glyphicon glyphicon-download" href="page2.html" style="color: #F8F8FF"> Download</a>
+                        <a class="page-scroll glyphicon glyphicon-download" href="MundoSENAI.jar" style="color: #F8F8FF"> Download</a>
                     </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right" style="font-size: 17px">
@@ -46,23 +47,52 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h2 style="background-color: #F8F8FF; color: #003300">O que é o "Sistema de Ponderação Ervilhas"?</h2><br>
-                        <h4 class="text-default" align="center" style="color: #003300">.....</h4><br style="line-height: 22em">
+                        <h2 style="background-color: #F8F8FF; color: #003300">O que é "Ponderação Ervilha"?</h2><br>
+                        <h4 class="text-default" align="left" style="color: #003300"/>
 
-                        <a class="btn btn-success page-scroll" href="#sobre" >Clique para rolar para baixo!</a>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img src="img/printSistema.png"/>
+                                    </td>
+                                    <td style="word-spacing: 3px; letter-spacing: 1px; text-align: justify; font-size: 15px">
+                                        Antes de tudo, é preciso entender que o aplicativo ainda se encontra em fase beta,
+                                        isto é, o conceito de como deveria ficar o aplicativo se encontra bastante intuítivo e terminado. Entretanto,
+                                        quais quer erros ou 'bugs' encontrados no sistema podem ser reportados aos desenvolvedores.
+                                        <br><br>Este sistema foi desenvolvido com o fim de ajudar principalmente os chamados "Primeiros anos",
+                                        pois como muitos já sabem, o colegio SESI tem por característica a apresentação de conceitos,
+                                        diferentemente de outras instituições de ensino, que qualificam o aprendizado do aluno por meio de notas numerais.
+                                        Os desenvolvedores do "Ponderação Ervilha" chegaram a conclusão de que muitos que entram no colégio, não 
+                                        conseguem ponderar suas notas corretamente, daí a ideia de um aplicativo que ajudasse neste ato de calcular a nota.
+
+                                    </td>
+                                </tr>
+                            </table>
+
+                    </div>
+                        <br style="line-height: 1em">
+                        <a class="btn btn-success page-scroll" href="#sobre" >Como ele funciona?</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="sobre" class="about-section" style="background: #DCDCDC">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h2 class="bg-default" style="color: #003300">Como ele funciona?</h2><br>
-                        <div class=container> 
-                            <h4 style="color: #003300"> ..... </h4><br style="line-height: 22em">
-                            <a class="btn btn-success page-scroll" href="#inicio">Clique para voltar ao Início!</a>
-                            </section>
-                            </body>
-                            </html>
+        <section id="sobre" class="about-section col-lg-12" style="background: #DCDCDC; height: 100px;" >
+            <h2 class="bg-default" style="color: #003300">Como o aplicativo funciona?</h2>
+            <br>
+            <table>
+                <tr>
+                    <td width="100%">
+                        O aplicativo funciona a partir do cálculo 
+                    </td>
+                    <td>
+                        <img src="img/imgCodigo.png"/>
+                    </td>
+                </tr>
+            </table>
+            
+            <h4 style="color: #003300"> ..... </h4>
+            <a class="btn btn-success page-scroll" href="#inicio">Voltar ao Início</a>
+        </section>
+    </body>
+</html>
